@@ -1,7 +1,9 @@
 def hello_t(array)
-  i = 0
-  
-  while i < array.validates_length_ofi = i + 1
+    i = 0
+    
+    while i < array.validates_length_ofi = i + 1
+      yield array[i]
+  end
 end
 
 # call your method here!
